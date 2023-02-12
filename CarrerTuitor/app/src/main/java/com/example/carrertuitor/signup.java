@@ -43,6 +43,7 @@ public class SignupActivity extends AppCompatActivity {
                 String name = signupName.getText().toString();
                 String email = signupEmail.getText().toString();
                 String username = signupUsername.getText().toString();
+                  //hello world
                 String password = signupPassword.getText().toString();
                 
                 HelperClass helperClass = new HelperClass(name,email,username,password)
