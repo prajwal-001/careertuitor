@@ -113,4 +113,20 @@ public class LoginActivity extends AppCompatActivity {
                         intent.putExtra("username", usernameFromDB);
                         intent.putExtra("password", passwordFromDB);
                         
-                        
+                        startActivity(intent);
+                    } else {
+                    loginPassword.setError("Invalid Credentials");
+                    loginPassword.requestFocus();
+                    }
+                } else {
+                loginUsername.setError("User doesnot exist");
+                loginUsername.requestFocus();
+                }
+                }
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+                }
+                });
+                }
+                }
+                
