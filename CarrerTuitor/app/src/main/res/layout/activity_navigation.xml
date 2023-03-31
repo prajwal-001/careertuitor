@@ -42,3 +42,4 @@ tools:context=".MainActivity">
                                                          app:itemTextColor="@color/lavender"/>
   
   </androidx.drawerlayout.widget.DrawerLayout>
+
